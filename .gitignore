@@ -1,0 +1,21 @@
+# Ignore common Python and Jupyter Notebook specific files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore dataset directories that are typically large and can be re-downloaded or generated
+
+**/*dataset/
+
+**/.ipynb_checkpoints
+
+# Ignore any specific output or temporary files you might generate
+# For example, if you have specific output directories
+# /output/
+# /logs/
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+
+!**/*.ipynb
