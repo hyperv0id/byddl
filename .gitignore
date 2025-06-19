@@ -19,3 +19,7 @@ __pycache__/
 Thumbs.db
 
 !**/*.ipynb
+
+**/*.checkpoint
+**/*.pth
+**/*.onnx
