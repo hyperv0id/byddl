@@ -22,5 +22,7 @@ Thumbs.db
 !**/*.ipynb
 
 **/*.checkpoint
+**/*.ckpt
 **/*.pth
 **/*.onnx
+lightning_logs/

@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "beartype>=0.22.2",
+    "jaxtyping>=0.3.3",
     "matplotlib>=3.10.6",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
